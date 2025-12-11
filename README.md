@@ -1,6 +1,6 @@
 # 🏦 银行账户管理系统 - 大学生课程设计项目
 
-> 📘 一个基于 Qt 和 MySQL 的完整银行账户管理系统，适合作为大学生课程设计、毕业设计或项目实践
+> 📘 一个基于 Qt 和 MySQL 的完整银行账户管理系统，适合作为大学生课程设计项目实践
 
 <div align="center">
 
@@ -62,7 +62,7 @@ BankSystem/
 ├── mainwindow.ui           # 界面布局文件
 ├── databasemanager.h       # 数据库管理类头文件
 ├── databasemanager.cpp     # 数据库管理类实现
-└── bank_system.sql         # 数据库建表脚本
+└── banksystem.sql         # 数据库建表脚本
 ```
 
 ## 🚀 快速开始
@@ -90,14 +90,14 @@ sudo apt install qt6-base-dev qt6-tools-dev-tools \
 mysql -u root -p
 
 -- 2. 创建数据库和用户
-CREATE DATABASE bank_system;
+CREATE DATABASE banksystem;
 CREATE USER 'bank_user'@'localhost' IDENTIFIED BY '123456';
-GRANT ALL PRIVILEGES ON bank_system.* TO 'bank_user'@'localhost';
+GRANT ALL PRIVILEGES ON banksystem.* TO 'bank_user'@'localhost';
 FLUSH PRIVILEGES;
 
 -- 3. 导入数据库脚本
-USE bank_system;
-SOURCE bank_system.sql;
+USE banksystem;
+SOURCE banksystem.sql;
 ```
 
 ### 第二步：编译运行
@@ -264,7 +264,7 @@ export CMAKE_PREFIX_PATH="/path/to/Qt/6.5.3/gcc_64"
 - 4个银行账户
 - 不同类型的交易记录
 
-可以通过修改 `bank_system.sql` 文件添加更多测试数据。
+可以通过修改 `banksystem.sql` 文件添加更多测试数据。
 
 ## 📄 许可证
 
