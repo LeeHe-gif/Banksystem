@@ -54,7 +54,7 @@
 ## 📁 项目结构
 
 ```
-bank-account-system/
+BankSystem/
 ├── CMakeLists.txt          # CMake配置文件
 ├── main.cpp                # 程序入口
 ├── mainwindow.h            # 主窗口头文件
@@ -104,8 +104,8 @@ SOURCE bank_system.sql;
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/bank-account-system.git
-cd bank-account-system
+git clone https://github.com/LeeHe-gif/BankSystem.git
+cd LeeHe-gif
 
 # 创建构建目录
 mkdir build
@@ -130,7 +130,7 @@ db.setHostName("localhost");      // MySQL服务器地址
 db.setPort(3306);                 // MySQL端口
 db.setDatabaseName("bank_system"); // 数据库名
 db.setUserName("bank_user");      // 用户名
-db.setPassword("123456");         // 密码
+db.setPassword("password");         // 密码
 ```
 
 ## 📊 数据库设计
@@ -270,26 +270,10 @@ export CMAKE_PREFIX_PATH="/path/to/Qt/6.5.3/gcc_64"
 
 本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
 
-## 👥 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-1. Fork 本项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
-## 📞 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- **邮箱**: your.email@example.com
-- **GitHub Issues**: [提交问题](https://github.com/yourusername/bank-account-system/issues)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/bank-account-system&type=Date)](https://star-history.com/#yourusername/bank-account-system&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=LeeHe-gif/BankSystem&type=Date)](https://star-history.com/#LeeHe-gif/BankSystem&Date)
 
 ---
 
