@@ -35,7 +35,7 @@ LoginWindow::LoginWindow(QWidget *parent)
     ui->txtServer->setText("localhost");
     ui->txtDatabase->setText("BankSystem");
     ui->txtDbUser->setText("root");
-    ui->txtDbPassword->setText("ne7ja%5m");
+    ui->txtDbPassword->setText("password");
 }
 
 LoginWindow::~LoginWindow()
